@@ -84,13 +84,19 @@ export default function Contact() {
           {/* right */}
           <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
             <div className="p-3">
-              <form>
+              <form action="https://formsubmit.co/isaquebatista1716@gmail.com" method="POST">
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
+
+                  <input type="hidden" name="_captcha" value="false"/>
+                  <input type="hidden" name="_next" value="https://tela-obrigado-portfolio.netlify.app/"/>
+
                   <div className="flex flex-col">
                     <label className="uppercase text-sm py-1">Nome</label>
                     <input
                       className="border-2 rounded-lg p-1 flex border-gray-300"
                       type="text"
+                      name="name"
+                      placeholder="Nome"
                     />
                   </div>
                   <div className="flex flex-col">
@@ -98,6 +104,9 @@ export default function Contact() {
                     <input
                       className="border-2 rounded-lg p-1 flex border-gray-300"
                       type="number"
+                      name="phone"
+                      placeholder="Digite seu telefone"
+                      required
                     />
                   </div>
                 </div>
@@ -106,6 +115,9 @@ export default function Contact() {
                   <input
                     className="border-2 rounded-lg p-1 flex border-gray-300"
                     type="email"
+                    name="email"
+                    placeholder="Email"
+                    required
                   />
                 </div>
                 <div className="flex flex-col py-2">
@@ -113,6 +125,8 @@ export default function Contact() {
                   <input
                     className="border-2 rounded-lg p-1 flex border-gray-300"
                     type="text"
+                    name="subject"
+                    placeholder="Assunto"
                   />
                 </div>
                 <div className="flex flex-col py-2">
@@ -120,6 +134,9 @@ export default function Contact() {
                   <textarea
                     className="border-2 rounded-lg p-3 border-gray-300"
                     rows={6}
+                    type="text"
+                    name="message"
+                    placeholder="Digite sua mensagem..."
                   ></textarea>
                 </div>
                 <button className=" w-full p-2 text-gray-100 mt-4">
