@@ -6,10 +6,10 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const Main = () => {
   return (
-    <div className="mb-0 w-full h-screen text-center">
+    <div className="mb-0 w-full h-screen text-center ">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
-        <div>
-          <p className="uppercase text-sm tracking-widest text-gray-600 ">
+        <div className="mt-10">
+          <p className="uppercase text-sm tracking-widest text-gray-600 mt-10">
             Vamos construir algo incrível juntos
           </p>
           <h1 className="py-4 text-gray-700">
