@@ -1,11 +1,11 @@
 import Image from "next/image";
 import React from "react";
-import conversorImg from "../../public/assets/projects/converter.png";
+import amakhaImg from "../../public/assets/projects/amakhaparis.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import { BsArrowLeft } from "react-icons/bs";
 import Link from "next/link";
 
-export default function converter() {
+export default function amakhaParis() {
   return (
     <div className="w-full">
       <div className="w-screen h-[50vh] relative">
@@ -14,12 +14,12 @@ export default function converter() {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={conversorImg}
+          src={amakhaImg}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Conversor de moedas</h2>
-          <h3>HTML / CSS / Javascript</h3>
+          <h2 className="py-2">Amakha Paris Site</h2>
+          <h3>Next.JS / Tailwind / Javascript</h3>
         </div>
       </div>
 
@@ -27,17 +27,18 @@ export default function converter() {
         <div className="col-span-4">
           <h2 className="pb-5">Sobre o projeto</h2>
           <p>
-            Conversor de moedas do Real para Euro, Dollar e Bitcoin. Consumo de API para fornecer a cotação em tempo real.
+            Projeto criado com foco de aumentar a captação de consumidores e(ou) revendedores para Amakha Paris, que é uma das maiores marcas de perfumaria e cosméticos brasileira. 
+            O sistema que esse projeto irá rodar já foi testado, e com a qualidade desse projeto estimo aumentar em mais de 10x os resultados atuais.
           </p>
           <a
-            href="https://github.com/IsaqueBatista/CONVERSOR-DE-MOEDAS"
+            href="https://github.com/IsaqueBatista/amakha-paris"
             target="_blank"
             rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4 mr-8">Repositório</button>
           </a>
           <a
-            href="https://isaquebatista.github.io/CONVERSOR-DE-MOEDAS/"
+            href="https://amakhaparis.vercel.app/"
             target="_blank"
             rel="noreferrer"
           >
@@ -50,11 +51,11 @@ export default function converter() {
 
             <div className="grid grid-cols-2 md:grid-cols-1">
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> HTML
+                <RiRadioButtonFill className="pr-1" /> Next.JS
               </p>
 
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> CSS
+                <RiRadioButtonFill className="pr-1" /> Tailwind CSS
               </p>
 
               <p className="text-gray-600 py-2 flex items-center">
@@ -62,7 +63,7 @@ export default function converter() {
               </p>
 
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> API
+                <RiRadioButtonFill className="pr-1" /> React-icons
               </p>
             </div>
           </div>

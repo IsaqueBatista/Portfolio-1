@@ -218,6 +218,12 @@ export default function curriculo() {
             {/*  */}
             <p className="italic pt-5">
               <span className="font-bold">Dev Club</span>
+              <span className="px-2">|</span>Programação FullStack - Rodolfo
+              Mori / Cursando (2023)
+            </p>
+            {/*  */}
+            <p className="italic">
+              <span className="font-bold">Dev Club</span>
               <span className="px-2">|</span>Missão Programação do Zero -
               Rodolfo Mori / Concluído (2022)
             </p>
@@ -236,12 +242,6 @@ export default function curriculo() {
               Guanabara / Concluído (2022)
             </p>
 
-            {/*  */}
-            <p className="italic">
-              <span className="font-bold">Dev Club</span>
-              <span className="px-2">|</span>Programação FullStack - Rodolfo
-              Mori / Cursando (2023)
-            </p>
 
             {/*  */}
             <p className="italic">

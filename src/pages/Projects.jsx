@@ -2,7 +2,7 @@ import React from "react";
 import loginNextImg from "../../public/assets/projects/loginNext.png";
 import hamburgueriaImg from "../../public/assets/projects/hamburgueria.png";
 import travelImg from "../../public/assets/projects/travel.png";
-import converterImg from "../../public/assets/projects/converter.png";
+import amakhaParis from "../../public/assets/projects/amakhaparis.png";
 import ProjectItem from "@/components/ProjectItem";
 
 export default function Projects() {
@@ -12,28 +12,28 @@ export default function Projects() {
         <h2 className="py-4">Meus Projetos</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
+            tittle="Amakha Paris"
+            backgroundImg={amakhaParis}
+            technologies="Next.JS/ Tailwind /JavaScript"
+            projectUrl="/amakhaParis"
+          />
+          <ProjectItem
             tittle="Login & Cadastro"
             backgroundImg={loginNextImg}
-            technologies='Next.JS / TypeScript'
+            technologies="Next.JS / TypeScript"
             projectUrl="/loginNext"
           />
           <ProjectItem
             tittle="Travel website"
             backgroundImg={travelImg}
-            technologies='React.JS'
+            technologies="React.JS"
             projectUrl="/travel"
           />
           <ProjectItem
             tittle="Hamburgueria"
             backgroundImg={hamburgueriaImg}
-            technologies='React.JS / NodeJS'
+            technologies="React.JS / NodeJS"
             projectUrl="/hamburgueria"
-          />
-          <ProjectItem
-            tittle="Conversor de moedas"
-            backgroundImg={converterImg}
-            technologies='HTML/CSS/JavaScript'
-            projectUrl="/converter"
           />
         </div>
       </div>
