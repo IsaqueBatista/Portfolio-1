@@ -31,7 +31,7 @@ export default function Contact() {
 
                 <div className="flex items-center justify-around py-3">
                   <a
-                    href="https://www.linkedin.com/in/isaque-batista-de-oliveira-a3b619236/"
+                    href="https://www.linkedin.com/in/isaque-batista-a3b619236/"
                     target="_blank"
                     rel="noreferrer"
                   >
