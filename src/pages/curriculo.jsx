@@ -24,7 +24,7 @@ export default function curriculo() {
           <div className="flex">
             <div className="flex items-center">
               <a
-                href="https://www.linkedin.com/in/isaque-batista-de-oliveira-a3b619236/"
+                href="https://www.linkedin.com/in/isaque-batista-a3b619236/"
                 target="_blank"
                 rel="noreferrer"
               >
