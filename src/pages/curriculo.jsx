@@ -137,12 +137,7 @@ export default function curriculo() {
           <p className="py-1 italic">Desenvolvedor Front End (2022 - Atual)</p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
-              Desenvolvedor front-end com habilidades excepcionais em criação de
-              interfaces de usuário atraentes e funcionais, desenvolvo projetos
-              com qualidade que vão além do código, entregando uma história ou
-              uma solução única que ajuda os clientes a realizar seus sonhos e
-              alcançar seus objetivos, tudo isso enquanto sigo boas práticas de
-              desenvolvimento, com código limpo, organizado e bem documentado.{" "}
+            Sou um desenvolvedor front-end com habilidades excepcionais em criação de interfaces de usuário atraentes e funcionais. Desenvolvo projetos com qualidade que vão além do código, entregando uma história ou uma solução única que ajuda os clientes a realizar seus sonhos e alcançar seus objetivos. Tudo isso enquanto sigo as melhores práticas de desenvolvimento, utilizando código limpo, organizado e bem documentado.
             </li>
           </ul>
           <br />
