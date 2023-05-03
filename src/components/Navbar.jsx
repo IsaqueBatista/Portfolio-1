@@ -161,7 +161,7 @@ export default function Navbar() {
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                 <a
-                  href="https://www.linkedin.com/in/isaque-batista-de-oliveira-a3b619236/"
+                  href="https://www.linkedin.com/in/isaque-batista-a3b619236/"
                   target="_blank"
                   rel="noreferrer"
                 >
