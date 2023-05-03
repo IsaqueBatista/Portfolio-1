@@ -1,7 +1,10 @@
 import React from "react";
 import Head from "next/head";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import {BsCloudDownload} from 'react-icons/bs'
+import { BsCloudDownload } from "react-icons/bs";
+import { FiExternalLink } from "react-icons/fi";
+
+import Link from "next/link";
 
 export default function curriculo() {
   return (
@@ -10,7 +13,7 @@ export default function curriculo() {
         <title>Isaque | CV</title>
         <meta
           name="description"
-          content="Sou um Desenvolvedor Front-End com experiência na construção de projetos e-commerce."
+          content="Desenvolvedor Front-End com experiência na construção de projetos e-commerce."
         />
         <link rel="icon" href="/fav.png" />
       </Head>
@@ -24,6 +27,7 @@ export default function curriculo() {
           <div className="flex">
             <div className="flex items-center">
               <a
+                title="Linkedin"
                 href="https://www.linkedin.com/in/isaque-batista-a3b619236/"
                 target="_blank"
                 rel="noreferrer"
@@ -31,6 +35,7 @@ export default function curriculo() {
                 <FaLinkedinIn size={20} style={{ marginRight: "1rem" }} />
               </a>
               <a
+                title="GitHub"
                 href="https://github.com/IsaqueBatista"
                 target="_blank"
                 rel="noreferrer"
@@ -83,14 +88,13 @@ export default function curriculo() {
           </div>
         </div>
         <p>
-          Olá! Sou Desenvolvedor Front-End, utilizo JavaScript como linguagem,
-          React.JS como framework principal e também me dedico aos estudos do
-          NextJS e Typescript. Para compreender melhor cada etapa do
-          desenvolvimento, busco me tornar um Desenvolvedor Full Stack. Tenho
-          experiência com desenvolvimento de projetos e-commerce. Sempre busco
-          desafios para aumentar minha experiência profissional, prezo muito
-          pela entrega do melhor resultado e busco me tornar cada vez melhor na
-          minha área de atuação.
+          Sou um programador altamente motivado e dedicado, com experiência no
+          desenvolvimento de projetos Front-End. Possuo habilidades em várias
+          tecnologias, tanto Front-End quanto Back-End. Estou constantemente
+          atualizando meus conhecimentos para acompanhar as tendências mais
+          recentes da tecnologia. Durante minha carreira, tive a oportunidade de
+          trabalhar em projetos desafiadores que me capacitaram a iniciar novos
+          projetos. Busco não só uma vaga mas sim desafios constantes.
         </p>
 
         {/* Skills */}
@@ -98,25 +102,26 @@ export default function curriculo() {
           <h5 className="text-center underline text-[18px] py-2">Skills</h5>
           <p className="py-2">
             <span className="font-bold">Habilidades técnicas</span>
+            <span className="px-2">|</span> ReactJS
+            <span className="px-2">|</span> NodeJS
+            <span className="px-2">|</span> Javascript
+            <span className="px-2">|</span> NextJS
+            <span className="px-2">|</span> TailwindCSS
             <span className="px-2">|</span> HTML
-            <span className="px-2">|</span>CSS
-            <span className="px-2">|</span>Javascript
-            <span className="px-2">|</span>Git/Github
-            <span className="px-2">|</span>React JS
-            <span className="px-2">|</span>Node JS
-            <span className="px-2">|</span>Next JS
-            <span className="px-2">|</span>Typescript
-            <span className="px-2">|</span>React Hooks
-            <span className="px-2">|</span>Material UI
-            <span className="px-2">|</span>Docker
-            <span className="px-2">|</span> Tailwind
+            <span className="px-2">|</span> CSS
+            <span className="px-2">|</span> Git/Github
+            <span className="px-2">|</span> React Hooks
+            <span className="px-2">|</span> Styled-Components
+            <span className="px-2">|</span> Typescript
             <span className="px-2">|</span> REST API
+            <span className="px-2">|</span> Material UI
+            <span className="px-2">|</span> Express
+            <span className="px-2">|</span> Axios
+            <span className="px-2">|</span> Docker
             <span className="px-2">|</span> MongoDB
             <span className="px-2">|</span> Sequelize
             <span className="px-2">|</span> PostgreSQL
-            <span className="px-2">|</span> Express
-            <span className="px-2">|</span> Axios
-            <span className="px-2">|</span> GIMP / Figma
+            <span className="px-2">|</span> Figma
           </p>
         </div>
 
@@ -132,19 +137,23 @@ export default function curriculo() {
           <p className="py-1 italic">Desenvolvedor Front End (2022 - Atual)</p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
-              Criação de projetos responsivos utilizando HTML, CSS e JavaScript.
-            </li>
-            <li>
-              Conhecendo e introduzindo tecnologias Back-End nos novos projetos.
-            </li>
-            <li>
-              Criação de projetos e-commerce e adquirindo conhecimentos mais
-              aprofundados no Back-End.
-            </li>
-            <li>
-              Adicionando novas funcionalidades aos projetos já existentes.
+              Desenvolvedor front-end com habilidades excepcionais em criação de
+              interfaces de usuário atraentes e funcionais, desenvolvo projetos
+              com qualidade que vão além do código, entregando uma história ou
+              uma solução única que ajuda os clientes a realizar seus sonhos e
+              alcançar seus objetivos, tudo isso enquanto sigo boas práticas de
+              desenvolvimento, com código limpo, organizado e bem documentado.{" "}
             </li>
           </ul>
+          <br />
+          <p className="italic">
+            <Link className=" flex items-center " href="/Projects">
+              <span className="font-bold italic mr-1 underline">
+                Confira meus projetos
+              </span>
+              <FiExternalLink />
+            </Link>
+          </p>
         </div>
 
         {/*  */}
@@ -178,11 +187,14 @@ export default function curriculo() {
           <p className="py-1 italic">Soldado (2016 – 2018)</p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
-              Foram 3 anos como militar e muitos ensinamentos, aprendi a
-              importância e aprimorei algumas habilidades, sendo elas:
-              liderança, pontualidade, cumprimento de metas, análise crítica,
-              análise comportamental, serenidade, seriedade, hombridade,
-              hierarquia e disciplina.
+              Foram 3 anos como militar, onde adquiri muitos ensinamentos e
+              aprimorei habilidades importantes, tais como liderança,
+              pontualidade, cumprimento de metas, análise crítica, análise
+              comportamental, serenidade, seriedade, hombridade, hierarquia e
+              disciplina. Além disso, por passar dias fora de casa a serviço,
+              passei a valorizar muito o trabalho Home Office, já que posso
+              trabalhar no conforto de minha casa, em companhia da minha
+              família, o que é um grande benefício para mim.
             </li>
           </ul>
 
@@ -241,7 +253,6 @@ export default function curriculo() {
               <span className="px-2">|</span>Curso de HTML e CSS - Gustavo
               Guanabara / Concluído (2022)
             </p>
-
 
             {/*  */}
             <p className="italic">
