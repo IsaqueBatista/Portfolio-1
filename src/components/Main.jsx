@@ -28,7 +28,7 @@ const Main = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div
+              <div 
                 className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer 
                 hover:scale-110 ease-in duration-300"
               >
@@ -40,7 +40,7 @@ const Main = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div
+              <div title="GitHub"
                 className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer 
                 hover:scale-110 ease-in duration-300"
               >
@@ -48,7 +48,7 @@ const Main = () => {
               </div>
             </a>
             <Link href="/Contact">
-              <div
+              <div title="Entre em contato"
                 className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer 
                 hover:scale-110 ease-in duration-300"
               >
@@ -56,7 +56,7 @@ const Main = () => {
               </div>
             </Link>
             <Link href="/curriculo">
-              <div
+              <div title="Currículo"
                 className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer 
                 hover:scale-110 ease-in duration-300"
               >
