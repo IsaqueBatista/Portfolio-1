@@ -49,8 +49,9 @@ export default function curriculo() {
                 <div className="p-1 pr-0">
                   <a
                     className="underline"
-                    href="./assets/CV-ISAQUE_BATISTA_DE_OLIVEIRA.pdf"
-                    download
+                    href="./assets/CV-ISAQUE_BATISTA_DEV_FRONT.pdf"
+                    // download
+                    target="_blank"
                     type="application/pdf"
                   >
                     <p className="flex items-center">
